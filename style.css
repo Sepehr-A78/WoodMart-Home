@@ -173,32 +173,32 @@
   background-image: url('img/wd-furniture-slider-1-opt-1.jpg');
 }
 .slide2{
-  background-image: url(img/wd-furniture-slider-2-opt-1.jpg);
+  background-image: url('img/wd-furniture-slider-2-opt-1.jpg');
 }
 .slide3{
-  background-image: url(img/wd-furniture-slider-3-opt-1.jpg);
+  background-image: url('img/wd-furniture-slider-3-opt-1.jpg');
 }
 
 section.categories{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 section.best-sellers{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 
 div.best-sellers-title div.best-sellers-title-R a::before{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 section.categories-2{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 
 section.categories-3{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 section.rules-section{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url('img/wd-furniture-background.jpg');
 }
 section.blog{
-  background-image: url(img/wd-furniture-background.jpg);
+  background-image: url(''img/wd-furniture-background.jpg);
 }
