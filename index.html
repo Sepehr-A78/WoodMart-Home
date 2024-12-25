@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Project-Final</title> 
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <!--top-header--------------------------------------->
+  <section class="top-header">
+    <div class="top-header-container">
+      <div class="top-header-container-box">
+        <div class="top-header-container-box-currency" id="eu-set">
+          <img src="img/wd-furniture-flag-eu.svg" alt="eu-flag">
+          <a onclick="eu()" href="#">EUR</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+          </svg>
+          <div class="top-header-container-box-currency-hovermenu">
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-canada.svg" alt="eu-flag">
+          <a onclick="ca()" href="#">Canada</a>
+            </div>
+            <div  class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-usa.svg" alt="eu-flag">
+          <a onclick="us()" href="#">USA</a>
+            </div>
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-japan.svg" alt="eu-flag">
+          <a onclick="ja()"  href="#">Japan</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-header-container-box-currency" id="ca-set">
+          <img src="img/wd-furniture-flag-canada.svg" alt="eu-flag">
+          <a onclick="ca()" href="#">Canada</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+          </svg>
+          <div class="top-header-container-box-currency-hovermenu">
+            <div  class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-usa.svg" alt="eu-flag">
+          <a onclick="us()" href="#">USA</a>
+            </div>
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-japan.svg" alt="eu-flag">
+          <a onclick="ja()"  href="#">Japan</a>
+            </div>
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-eu.svg" alt="eu-flag">
+              <a onclick="eu()" href="#">EUR</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-header-container-box-currency" id="us-set">
+          <img src="img/wd-furniture-flag-usa.svg" alt="eu-flag">
+          <a onclick="us()" href="#">USA</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+          </svg>
+          <div class="top-header-container-box-currency-hovermenu">           
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-japan.svg" alt="eu-flag">
+          <a onclick="ja()"  href="#">Japan</a>
+            </div>
+            <div  class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-eu.svg" alt="eu-flag">
+              <a onclick="eu()" href="#">EUR</a>
+            </div>
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-canada.svg" alt="eu-flag">
+          <a onclick="ca()" href="#">Canada</a>
+            </div>
+          </div>
+        </div>
+        <div class="top-header-container-box-currency" id="ja-set">
+          <img src="img/wd-furniture-flag-japan.svg" alt="eu-flag">
+          <a onclick="ja()"  href="#">Japan</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+          </svg>
+          <div class="top-header-container-box-currency-hovermenu">
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-eu.svg" alt="eu-flag">
+              <a onclick="eu()" href="#">EUR</a>
+            </div>
+            <div class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-canada.svg" alt="eu-flag">
+              <a onclick="ca()" href="#">Canada</a>
+            </div>
+            <div  class="top-header-container-box-currency-hovermenu-options">
+              <img src="img/wd-furniture-flag-usa.svg" alt="eu-flag">
+              <a onclick="us()" href="#">USA</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="top-header-container-box-options">Gift Cards</a>
+        <a href="#" class="top-header-container-box-options">Showrooms</a>
+        <a href="#" class="top-header-container-box-options">About Us</a>
+      </div>
+      <div class="top-header-container-box">
+        <div class="top-header-container-box-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+        </svg>(686) 492-1044
+      </div>
+        <div class="top-header-container-box-expert">
+          <img src="img/wd-furniture-contact-expert-65x22.png" alt="expert-pic">
+          <span>Contact with an expert</span>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+  <!--header------------------------------------------->
+  <section  class="header">
+    <header>
+      <button class="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+    </button>
+      <a class="logo-tag" href="#" class="logo"><img src="img/wd-furniture-logo-black.svg" alt="logo-pic"></a>
+      <form>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        <input type="search" placeholder="Search for products">
+      </form>
+      <a href="#" class="shuffle"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+        <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+      </svg>
+    </a>
+      <a href="#" class="heart"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+      </svg>
+    </a>
+      <a href="#" class="login">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+      </svg>Login / Register
+    </a>
+      <a href="#" class="cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+      </svg>
+      <span class="check-out">
+        <span class="to-eu">€</span>
+        <span class="to-us-dollar">$</span>
+        <span class="to-ca-dollar">CA$</span>
+        <span class="ja-currency">¥</span>
+        0.00
+      </span>
+      <span class="counter">0</span>
+    </a>
+      
+    </header>
+    <nav>
+      <div class="nav-menu">
+        <a href="#" class="nav-menu-options"><img src="img/Chair.svg" alt="product-logo">Chair</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-tables-1.svg" alt="product-logo">Tables</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-sofas-1.svg" alt="product-logo">Sofas</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-armchairs-1.svg" alt="product-logo">Armchairs</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-beds-1.svg" alt="product-logo">Beds</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-storage-1.svg" alt="product-logo">Storage</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-textiles-1.svg" alt="product-logo">Textiles</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-lighting-1.svg" alt="product-logo">Lighting</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-toys-1.svg" alt="product-logo">Toys</a>
+        <a href="#" class="nav-menu-options"><img src="img/wd-furniture-decor-1.svg" alt="product-logo">Decor</a>
+      </div>
+      <a href="#" class="free-shipping">Free shipping for all orders of $1.300</a>
+    </nav>
+  </section>
+  <!--cover-------------------------------------------->
+    <section class="slideshow-container">
+
+
+      <div href="#" class="mySlides fade">
+            <img class="slide1">
+            <div class="pic-text">
+
+              <div class="pic-text-top">
+                <span class="pic-text-top-img"><img src="img/wd-slide-icon-decor.svg" alt="product-logo"></span>
+                <p class="pic-text-top-text">Discover more products in the <span class="underline-text">decor</span> category  </p>
+              </div>
+
+              <div class="pic-text-middle">
+                <h2>Terracotta Vase<br> by <img src="img/furniture-2-slider-1-author-1.png.webp" alt="artist-pic"> Courtney Henry</h2>
+              </div>
+              <div class="pic-text-bottom">
+                <a href="#" class="slider-buy-now">Shop Now</a>
+                <span class="slider-price">
+                  <span class="to-eu">€</span>
+                  <span class="to-us-dollar">$</span>
+                  <span class="to-ca-dollar">CA$</span>
+                  <span class="ja-currency">¥</span>
+                  182
+                </span>
+              </div>
+              
+            </div>
+      </div>
+
+      <div href="#" class="mySlides fade">
+            <img class="slide2">
+            <div class="pic-text">
+
+              <div class="pic-text-top">
+                <span class="pic-text-top-img"><img src="img/wd-slide-icon-chair.svg" alt="product-logo"></span>
+                <p class="pic-text-top-text">Discover more products in the <span class="underline-text">chair</span> category  </p>
+              </div>
+
+              <div class="pic-text-middle">
+                <h2>Upholstered chair<br> by <img src="img/furniture-2-slider-2-author-1.png.webp" alt="artist-pic"> Esther Howard</h2>
+              </div>
+              <div class="pic-text-bottom">
+                <a href="#" class="slider-buy-now">Shop Now</a>
+                <span class="slider-price">
+                  <span class="to-eu">€</span>
+                  <span class="to-us-dollar">$</span>
+                  <span class="to-ca-dollar">CA$</span>
+                  <span class="ja-currency">¥</span>
+                  468
+                </span>
+              </div>
+              
+            </div>
+      </div>
+        
+      <div href="#" class="mySlides fade">
+            <img class="slide3">
+            <div class="pic-text">
+
+              <div class="pic-text-top">
+                <span class="pic-text-top-img"><img src="img/wd-slide-icon-sofas.svg" alt="product-logo"></span>
+                <p class="pic-text-top-text">Discover more products in the <span class="underline-text">sofas</span> category  </p>
+              </div>
+
+              <div class="pic-text-middle">
+                <h2>Sectional fabric sofa<br> by <img src="img/furniture-2-slider-3-author-1.png" alt="artist-pic"> Ramón Esteve</h2>
+              </div>
+              <div class="pic-text-bottom">
+                <a href="#" class="slider-buy-now">Shop Now</a>
+                <span class="slider-price">
+                  <span class="to-eu">€</span>
+                  <span class="to-us-dollar">$</span>
+                  <span class="to-ca-dollar">CA$</span>
+                  <span class="ja-currency">¥</span>
+                  3620
+                </span>
+              </div>
+              
+            </div>
+      </div>
+        
+      <div class="prev" onclick="plusSlides(-1)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+        </svg>
+      </div>
+
+      <div class="next" onclick="plusSlides(1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+      </div> 
+
+      <div class="dot-line">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      <script>
+
+        let slideIndex = 1;
+          showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    
+    
+        
+        
+      </script>
+
+  </section>
+  <!--categories--------------------------------------->
+  <section class="categories">
+    <div class="categories-title">
+      <h2>Our categories</h2>
+      <p>Lots of new products and product collections</p>
+    </div>
+    <div class="catergories-line">
+      <a href="#" class="categories-option">
+        <img src="img/chairs-cat.jpg.webp" alt="category-pic">
+        <span class="category-name">Chairs</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/tables.jpg.webp" alt="category-pic">
+        <span class="category-name">Tables</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/sofas.jpg.webp" alt="category-pic">
+        <span class="category-name">Sofas</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/armchair.jpg.webp" alt="category-pic">
+        <span class="category-name">Armchairs</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/bed.jpg.webp" alt="category-pic">
+        <span class="category-name">Beds</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/storage.jpg.webp" alt="category-pic">
+        <span class="category-name">Storage</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/textiles.jpg.webp" alt="category-pic">
+        <span class="category-name">Textiles</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/lightinf.jpg.webp" alt="category-pic">
+        <span class="category-name">Lighting</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/toys.jpg.webp" alt="category-pic">
+        <span class="category-name">Toys</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-option">
+        <img src="img/decor.jpg.webp" alt="category-pic">
+        <span class="category-name">Decor</span>
+        <span class="category-products">16 products</span>
+        <span class="cat-option-cover"></span>
+      </a>
+      
+      
+    </div>
+    
+  </section>
+  <!--bestsellers-------------------------------------->
+  <section class="best-sellers">
+    <div class="best-sellers-title">
+      <h2>Weekly bestsellers</h2>
+      <div class="best-sellers-title-R">
+        <a href="#" id="active-title-R">All</a>
+        <a href="#" class="deactive-title-R">Chairs</a>
+        <a href="#" class="deactive-title-R">Sofas</a>
+        <a href="#" class="deactive-title-R">Armchairs</a>
+        <a href="#" class="deactive-title-R">Tables</a>
+      </div>
+    </div>
+    <div class="best-sellers-grid">
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-curve.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Curve</span>
+            <span class="bs-product-rating">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Chairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          320.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-Can.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Can</span>
+          </span>
+          <span class="bs-product-type">Sofas</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          2,100.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-belt.jpg.webp" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Belt</span>
+          </span>
+          <span class="bs-product-type">Armchairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          680.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-Giro.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Giro LR</span>
+            <span class="bs-product-rating">5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Tables</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          449.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-soft-edge.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Soft Edge</span>
+          </span>
+          <span class="bs-product-type">Chairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          440.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-pallisade.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Pallisade</span>
+            <span class="bs-product-rating">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Sofas</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          1,890.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-bitta.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Bitta</span>
+          </span>
+          <span class="bs-product-type">Chairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          1,519.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-albert.jpg.webp" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Albert</span>
+            <span class="bs-product-rating">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Armchairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          1,600.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-navana.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Navona</span>
+          </span>
+          <span class="bs-product-type">Sofas</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          1,669.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-aurda.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Aruda</span>
+            <span class="bs-product-rating">4.5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Tables</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          699.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+    </div>
+    
+    
+  </section>
+  <!--category2-by-brands------------------------------>
+  <section class="categories-2">
+    <div class="categories-title-2">
+      <h2>Shopping by brands</h2>
+      <p>Discover lots products from popular brands</p>
+    </div>
+    <div class="catergories-2-line">
+      <a href="#" class="categories-2-option">
+        <img class="categories-2-option-background" src="img/elitis.jpg" alt="category-pic">
+        <span class="category-2-name">
+          <img class="brand-logo" src="img/elitis.png" alt="brand-logo-pic">
+          <span class="category-2-name-title">
+            <span class="category-2-name-title-top">Elitis</span>
+            <span class="category-2-name-title-bottom">Talosa / France</span>
+          </span>
+        </span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-2-option">
+        <img class="categories-2-option-background" src="img/hay.jpg" alt="category-pic">
+        <span class="category-2-name">
+          <img class="brand-logo" src="img/hay.png" alt="brand-logo-pic">
+          <span class="category-2-name-title">
+            <span class="category-2-name-title-top">Hay</span>
+            <span class="category-2-name-title-bottom">Barcelona / Spain</span>
+          </span>
+        </span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-2-option">
+        <img class="categories-2-option-background" src="img/kettal.jpg" alt="category-pic">
+        <span class="category-2-name">
+          <img class="brand-logo" src="img/kettal.png" alt="brand-logo-pic">
+          <span class="category-2-name-title">
+            <span class="category-2-name-title-top">Kettal</span>
+            <span class="category-2-name-title-bottom">Barcelona / France</span>
+          </span>
+        </span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-2-option">
+        <img class="categories-2-option-background" src="img/lladro.jpg" alt="category-2-pic">
+        <span class="category-2-name">
+          <img class="brand-logo" src="img/llardro.png" alt="brand-logo-pic">
+          <span class="category-2-name-title">
+            <span class="category-2-name-title-top">Llardo</span>
+            <span class="category-2-name-title-bottom">Valencia / Spain</span>
+          </span>
+        </span>
+        <span class="cat-option-cover"></span>
+      </a>
+      <a href="#" class="categories-2-option">
+        <img class="categories-2-option-background" src="img/poliform.jpg" alt="category-pic">
+        <span class="category-2-name">
+          <img class="brand-logo" src="img/poliform.png" alt="brand-logo-pic">
+          <span class="category-2-name-title">
+            <span class="category-2-name-title-top">Poliform</span>
+            <span class="category-2-name-title-bottom">Como / Italy</span>
+          </span>
+        </span>
+        <span class="cat-option-cover"></span>
+      </a>
+      
+    </div>
+    
+  </section>
+  <!--category3-collections---------------------------->
+  <section class="categories-3">
+    <div class="categories-title-3">
+      <h2>Product collections</h2>
+      <p>Explore product collections from our vendors</p>
+    </div>
+    <div class="catergories-3-line">
+      <a id="cat3-pic1" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-1-webp.webp" alt="category-pic">
+        <div id="pic-1-point-1" class="categories-3-option-point"></div>
+        <div id="pic-1-point-2" class="categories-3-option-point"></div>
+        <div id="pic-1-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic2" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-2.webp" alt="category-pic">
+        <div id="pic-2-point-1" class="categories-3-option-point"></div>
+        <div id="pic-2-point-2" class="categories-3-option-point"></div>
+        <div id="pic-2-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic3" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-3.webp" alt="category-pic">
+        <div id="pic-3-point-1" class="categories-3-option-point"></div>
+        <div id="pic-3-point-2" class="categories-3-option-point"></div>
+        <div id="pic-3-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic4" class="categories-3-option">
+        <span class="cat3-text-title">GLADØM</span>
+        <span class="cat3-option-text">The new common language will be more simple and regular than the existing languages</span>
+      </a>
+      <a id="cat3-pic5" class="categories-3-option">
+        <video autoplay loop class="categories-3-option-background" src="img/gird-pic-5.mp4" alt="category-pic"></video>
+        <div id="pic-5-point-1" class="categories-3-option-point"></div>
+        <div id="pic-5-point-2" class="categories-3-option-point"></div>
+        <div id="pic-5-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic6" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-6.webp" alt="category-pic">
+        <div id="pic-6-point-1" class="categories-3-option-point"></div>
+        <div id="pic-6-point-2" class="categories-3-option-point"></div>
+        <div id="pic-6-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic7" class="categories-3-option">
+        <span class="cat3-text-title">HÄLLAN</span>
+        <span class="cat3-option-text">The new common language will be more simple and regular than the existing languages</span>
+      </a>
+      <a id="cat3-pic8" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-7.webp" alt="category-pic">
+        <div id="pic-8-point-1" class="categories-3-option-point"></div>
+        <div id="pic-8-point-2" class="categories-3-option-point"></div>
+        <div id="pic-8-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic9" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-8.webp" alt="category-pic">
+        <div id="pic-9-point-1" class="categories-3-option-point"></div>
+        <div id="pic-9-point-2" class="categories-3-option-point"></div>
+        <div id="pic-9-point-3" class="categories-3-option-point"></div>
+      </a>
+      <a id="cat3-pic10" class="categories-3-option">
+        <img class="categories-3-option-background" src="img/gird-pic-9.webp" alt="category-pic">
+        <div id="pic-10-point-1" class="categories-3-option-point"></div>
+        <div id="pic-10-point-2" class="categories-3-option-point"></div>
+        <div id="pic-10-point-3" class="categories-3-option-point"></div>
+      </a>
+
+      
+    </div>
+    
+  </section>
+  <!--Collection-of-the-week---------------------------->
+  <section class="best-sellers">
+    <div class="categories-title">
+      <h2>Furniture collection of the week</h2>
+      <p>The most popular products from the collection</p>
+    </div>
+    <div class="best-sellers-grid">
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/frames.jpg.webp" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Frames Upholstered</span>
+          </span>
+          <span class="bs-product-type">Chairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          399.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/skygarden.jpg.webp" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Skygarden</span>
+          </span>
+          <span class="bs-product-type">Lighting</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          780.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/mags.jpg.webp" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Mags</span>
+          </span>
+          <span class="bs-product-type">Sofas</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          3,620.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-Giro.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Giro</span>
+            <span class="bs-product-rating">5 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg></span>
+          </span>
+          <span class="bs-product-type">Tables</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          3,400.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+      <div class="best-sellers-grid-product">
+        <div class="bs-product-pic">
+          <img src="img/bs-soft-edge.jpg" alt="product-pic">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>
+        </div>
+        <div class="bs-product-title">
+          <span class="bs-product-name-rating">
+            <span class="bs-product-name">Soft Edge</span>
+          </span>
+          <span class="bs-product-type">Chairs</span>
+        </div>
+        <div class="bs-product-price">
+          <span class="to-eu">€</span>
+          <span class="to-us-dollar">$</span>
+          <span class="to-ca-dollar">CA$</span>
+          <span class="ja-currency">¥</span>
+          440.00
+        </div>
+        <div class="bs-add-compare-search">
+          <a href="#" class="bs-add-to-cart">
+            <span class="bs-add-to-cart-text">Add to cart</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-shuffle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.6 9.6 0 0 0 7.556 8a9.6 9.6 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.6 10.6 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.6 9.6 0 0 0 6.444 8a9.6 9.6 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
+              <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192"/>
+            </svg>
+          </a>
+          <a href="#" class="bs-search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--Rules--------------------------------------------->
+  <section class="rules-section">
+    <div class="categories-title-2">
+      <h2>Rules for choosing furniture</h2>
+    </div>
+    <div class="rules">
+      <img src="img/chair-nobackground.png.webp" alt="chair-pic">
+
+    <div class="rules-video-text">
+      <div class="rules-texts">
+      <h5>Whether living on your own or with a family, your living room is an important space.</h5>
+      <p>This room is where your family spends time together, and it is the room most of your guests will spend the majority of their time in. Choosing furniture that creates a pleasant, welcoming appearance while holding up against the wear and tear of everyday life is the key in getting this space to work for your needs.</p>
+      <ul>
+        <li>Choose items in a single color scheme and style</li>
+        <li>wd-furniture-dot-list
+          Consider the area of the room</li>
+        <li>Do not buy unnecessary pieces of furniture</li>
+      </ul>
+        </div>
+      <div class="video-pic">
+    <img src="img/video-background.jpg" alt="video-background">
+    <div class="video-pic-text">
+      <span class="vp-text-top">How choose furniture</span>
+      <span class="vp-text-middle">SØLREM furniture collection</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+        <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
+      </svg>
+    </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </section>
+  <!--Blog--------------------------------------------->
+  <section class="blog">
+    <div class="blog-title">
+      <h2>Latest articles</h2>
+      <a href="#">
+        Visit the  Blog <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+      </a>
+    </div>
+    <div class="blog-box-row">
+      <div class="blog-box">
+        <div class="blog-box-pic">
+          <img class="blog-pic" src="img/blog-1.jpg" alt="blog-pic">
+          <span class="writer">
+            <img src="img/furniture-2-slider-3-author-1.png" alt="writer-pic" class="writer-pic">
+            <span class="writer-name">Mr.Mackay</span>
+          </span>
+          <span class="blog-comment">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            </svg>
+            <span class="comment-count">0</span>
+          </span>
+        </div>
+        <span class="blog-type-date">Design Trends / 18 Apr 2023</span>
+        <span class="blog-title">The Clean Series</span>
+        <p>
+          So when is it okay to use lorem ipsum? First, lorem ipsum works well for staging. It’s like the props in a furniture store
+        </p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <div class="blog-box">
+        <div class="blog-box-pic">
+          <img class="blog-pic" src="img/blog-4.jpg" alt="blog-pic">
+          <span class="writer">
+            <img src="img/furniture-2-slider-3-author-1.png" alt="writer-pic" class="writer-pic">
+            <span class="writer-name">Mr.Mackay</span>
+          </span>
+          <span class="blog-comment">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            </svg>
+            <span class="comment-count">2</span>
+          </span>
+        </div>
+        <span class="blog-type-date">Wooden accessories / 30 Apr 2023</span>
+        <span class="blog-title">For clear thinking</span>
+        <p>
+          The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.
+        </p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <div class="blog-box">
+        <div class="blog-box-pic">
+          <img class="blog-pic" src="img/blog-3.jpg" alt="blog-pic">
+          <span class="writer">
+            <img src="img/furniture-2-slider-3-author-1.png" alt="writer-pic" class="writer-pic">
+            <span class="writer-name">Mr.Mackay</span>
+          </span>
+          <span class="blog-comment">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            </svg>
+            <span class="comment-count">6</span>
+          </span>
+        </div>
+        <span class="blog-type-date">Furniture / 09 May 2023</span>
+        <span class="blog-title">Ethimo mountain style</span>
+        <p>
+          So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero’s De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.
+        </p>
+        <a href="#">Continue Reading</a>
+      </div>
+      <div class="blog-box">
+        <div class="blog-box-pic">
+          <img class="blog-pic" src="img/blog-2.jpg" alt="blog-pic">
+          <span class="writer">
+            <img src="img/furniture-2-slider-3-author-1.png" alt="writer-pic" class="writer-pic">
+            <span class="writer-name">Mr.Mackay</span>
+          </span>
+          <span class="blog-comment">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            </svg>
+            <span class="comment-count">3</span>
+          </span>
+        </div>
+        <span class="blog-type-date">Decoration / 26 May 2023</span>
+        <span class="blog-title">In the heart of Valencia</span>
+        <p>
+          As an alternative theory, (and because Latin scholars do this sort of thing) someone tracked down a 1914 Latin edition of De Finibus which challenges McClintock’s 15th century claims and suggests that the dawn of lorem ipsum was as recent as the 20th century. 
+        </p>
+        <a href="#">Continue Reading</a>
+      </div>
+    </div>
+    
+  </section>
+  <!--footer--------------------------------------------->
+  <footer>
+    <div class="footer-left">
+      <img class="footer-logo" src="img/wd-furniture-logo-white.svg" alt="logo-white" class="footer-logo">
+      <div class="footer-links-categories">
+        <div class="footer-links">
+          <h5>Useful links</h5>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Showrooms</a>
+          <a href="#">Blog</a>
+          <a href="#">Gift Cards</a>
+        </div>
+        <div class="footer-categories">
+          <h5>Categories</h5>
+          <div class="footer-categories-row">
+            <div class="footer-categories-left">
+              <a href="#">Chair</a>
+              <a href="#">Tables</a>
+              <a href="#">Sofas</a>
+              <a href="#">Armchairs</a>
+              <a href="#">Beds</a>
+            </div>
+            <div class="footer-categories-right">
+              <a href="#">Storage</a>
+              <a href="#">Textiles</a>
+              <a href="#">Lighting</a>
+              <a href="#">Toys</a>
+              <a href="#">Decor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="footer-social">
+        <span>Subscribe  us:</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+
+      </div>
+      <div class="our-apps">
+        <h5>Download App on Mobile:</h5>
+        <p>15% discount on your first purchase</p>
+        <a href="#"><img src="img/google-play.svg" alt="google-app"></a><a href="#"><img src="img/app-store.svg" alt="ios-app"></a>
+      </div>
+    </div>
+  </footer>
+  <section class="credits">
+    <div class="credit-row">
+      <p><a href="#">WOODMART</a> © 2024 CREATED BY <a href="#">XTEMOS STUDIO</a>. PREMIUM E-COMMERCE SOLUTIONS.</p>
+    <div class="payments">
+      <img src="img/visa.png" alt="payment-pics">
+      <img src="img/mastercard.png" alt="payment-pics">
+      <img src="img/paypal.png" alt="payment-pics">
+      <img src="img/ae.png" alt="payment-pics">
+      <img src="img/visa-e.png" alt="payment-pics">
+      <img src="img/mas.png" alt="payment-pics">
+    </div>
+    </div>
+  </section>
+  <section class="bottom-nav">
+    <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+      </svg>
+      <span class="option-name">Shop</span>
+    </a>
+    <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+      </svg>
+      <span class="option-name">Wishlist</span>
+    </a>
+    <a href="#">
+    <span id="svg-cart">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+      </svg>
+      <span class="cart-count">0</span>
+    </span>
+    <span class="option-name">Cart</span>
+    </a>
+    <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+      </svg>
+      <span class="option-name">My Account</span>
+    </a>
+
+  </section>
+
+  
+
+</body>
+
+
+</html>
