@@ -170,7 +170,7 @@
 /*--background-images--------------------------------*/
 
 .slide1{
-  background-image: url(img/wd-furniture-slider-1-opt-1.jpg);
+  background-image: url('img/wd-furniture-slider-1-opt-1.jpg');
 }
 .slide2{
   background-image: url(img/wd-furniture-slider-2-opt-1.jpg);
